@@ -18,14 +18,7 @@ import VideoModal from '../components/VideoModal';
 
 export default function MarketingAgency() {
   const heroSocialLinks = [
-    {
-      name: 'Behance',
-      links: '/',
-    },
-    {
-      name: 'Twitter',
-      links: '/',
-    },
+    
   ];
   const funfaceData = [
     {
@@ -59,8 +52,8 @@ export default function MarketingAgency() {
           subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
           btnLink="contact"
           btnText="Let’s talk"
-          socialLinksHeading="Follow Us"
-          heroSocialLinks={heroSocialLinks}
+          // socialLinksHeading="Follow Us"
+          // heroSocialLinks={heroSocialLinks}
         />
         {/* End Hero Section */}
 

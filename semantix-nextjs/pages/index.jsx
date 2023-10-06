@@ -1,85 +1,209 @@
+import { Icon } from '@iconify/react';
 import Head from 'next/head';
-import Card from '../components/Card';
+import React, { useState } from 'react';
 import Cta from '../components/Cta';
 import Div from '../components/Div';
-import FunFact from '../components/FunFact';
-import Hero from '../components/Hero';
+import FunFact2 from '../components/FunFact/FunFact2';
+import Hero4 from '../components/Hero/Hero4';
 import Layout from '../components/Layout';
 import LogoList from '../components/LogoList';
-import MovingText from '../components/MovingText';
+import MovingText2 from '../components/MovingText/MovingText2';
+import Portfolio from '../components/Portfolio';
+import PostList from '../components/Post/PostList';
 import SectionHeading from '../components/SectionHeading';
-import PortfolioSlider from '../components/Slider/PortfolioSlider';
-import PostSlider from '../components/Slider/PostSlider';
-import TeamSlider from '../components/Slider/TeamSlider';
 import TestimonialSlider from '../components/Slider/TestimonialSlider';
 import TimelineSlider from '../components/Slider/TimelineSlider';
 import Spacing from '../components/Spacing';
 import VideoModal from '../components/VideoModal';
 
+
+import Card from '../components/Card';
+
+
+
+
+
+import MovingText from '../components/MovingText';
+
+import PortfolioSlider from '../components/Slider/PortfolioSlider';
+import PostSlider from '../components/Slider/PostSlider';
+import TeamSlider from '../components/Slider/TeamSlider';
+
+
+
 export default function Home() {
-  // Hero Social Links
+
+  const [itemShow, setItemShow] = useState(6);
   const heroSocialLinks = [
     {
-      name: 'Behance',
+      name: 'Instagram',
       links: '/',
     },
     {
-      name: 'Twitter',
+      name: 'Facebook',
       links: '/',
+    },
+  ];
+  const funfaceData = [
+    {
+      title: 'Digital products',
+      factNumber: '50',
+    },
+    {
+      title: 'Global happy clients',
+      factNumber: '10',
+    },
+    {
+      title: 'Project completed',
+      factNumber: '15',
+    },
+    {
+      title: 'Team members',
+      factNumber: '10',
+    },
+  ];
+  const serviceData1 = [
+    {
+      title: 'Web Development',
+      href: '/service/service-details',
+    },
+    {
+      title: 'Marketing',
+      href: '/service/service-details',
+    },
+    {
+      title: 'Branding',
+      href: '/service/service-details',
+    },
+  ];
+  const serviceData2 = [
+    {
+      title: 'SEO',
+      href: '/service/service-details',
+    },
+    {
+      title: 'App design',
+      href: '/service/service-details',
+    },
+    {
+      title: 'Software Development',
+      href: '/service/service-details',
+    },
+  ];
+  const portfolioData = [
+    {
+      title: 'Colorful Art Work',
+      subtitle: 'See Details',
+      href: '/portfolio/portfolio-details',
+      src: '/images/portfolio_11.jpeg',
+      category: 'ui_ux_design',
+    },
+    {
+      title: 'Colorful Art Work',
+      subtitle: 'See Details',
+      href: '/portfolio/portfolio-details',
+      src: '/images/portfolio_12.jpeg',
+      category: 'logo_design',
+    },
+    {
+      title: 'Colorful Art Work',
+      subtitle: 'See Details',
+      href: '/portfolio/portfolio-details',
+      src: '/images/portfolio_13.jpeg',
+      category: 'web_design',
+    },
+    {
+      title: 'Colorful Art Work',
+      subtitle: 'See Details',
+      href: '/portfolio/portfolio-details',
+      src: '/images/portfolio_14.jpeg',
+      category: 'mobile_apps',
+    },
+    {
+      title: 'Colorful Art Work',
+      subtitle: 'See Details',
+      href: '/portfolio/portfolio-details',
+      src: '/images/portfolio_15.jpeg',
+      category: 'ui_ux_design',
+    },
+    {
+      title: 'Colorful Art Work',
+      subtitle: 'See Details',
+      href: '/portfolio/portfolio-details',
+      src: '/images/portfolio_16.jpeg',
+      category: 'web_design',
+    },
+    {
+      title: 'Colorful Art Work',
+      subtitle: 'See Details',
+      href: '/portfolio/portfolio-details',
+      src: '/images/portfolio_11.jpeg',
+      category: 'ui_ux_design',
+    },
+    {
+      title: 'Colorful Art Work',
+      subtitle: 'See Details',
+      href: '/portfolio/portfolio-details',
+      src: '/images/portfolio_12.jpeg',
+      category: 'logo_design',
+    },
+    {
+      title: 'Colorful Art Work',
+      subtitle: 'See Details',
+      href: '/portfolio/portfolio-details',
+      src: '/images/portfolio_13.jpeg',
+      category: 'web_design',
     },
   ];
 
-  // FunFact Data
-  const funfaceData = [
-    {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
-    },
-    {
-      title: 'Project Completed',
-      factNumber: '50K',
-    },
-    {
-      title: 'Team Members',
-      factNumber: '245',
-    },
-    {
-      title: 'Digital products',
-      factNumber: '550',
-    },
-  ];
 
   return (
     <>
       <Head>
-        <title>Home - Creative Agency</title>
+        <title>Home - semantix labs</title>
         <meta name="description" content="Generated by create next app" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.png" />
       </Head>
       <Layout>
         {/* Start Hero Section */}
-        <Hero
-          title="Creativity In <br/>Our Blood Line"
-          subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
-          btnText="Get a Quote"
-          btnLink="/contact"
+        <Hero4
+          title="We semantix <span>labs</span> <br />Your Digital Partner"
+          subtitle="We are dedicated to delivering cutting-edge problem-solving solutions to our clients while consistently providing the highest quality products, both now and in the future."
           scrollDownId="#service"
           socialLinksHeading="Follow Us"
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="/images/hero_bg.jpeg"
+          phoneNumber="+94 77 5222 493"
+          email="info@semantixlabs.com"
         />
         {/* End Hero Section */}
 
-        {/* Start FunFact Section */}
-        <div className="container">
-          <FunFact
-            variant="cs-type1"
-            title="Our fun fact"
-            subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+        {/* Start Funfact Section */}
+        <Div className="container">
+          <FunFact2
             data={funfaceData}
+            variant="cs-type1"
+            bgUrl="/images/funfact_shape_bg.svg"
           />
-        </div>
-        {/* End FunFact Section */}
+        </Div>
+        {/* End Funfact Section */}
+
+        {/* Start Services Section */}
+        <Spacing lg="145" md="80" />
+        <Div className="container">
+          <SectionHeading
+            title="What we provide"
+            subtitle="Services"
+            variant="cs-style1 text-center"
+          />
+          <Spacing lg="65" md="45" />
+        </Div>
+        {/* End Services Section */}
+
+        {/* Start Moving Text Section */}
+        <MovingText2 data={serviceData1} />
+        <Spacing lg="20" md="10" />
+        <MovingText2 reverseDirection data={serviceData2} />
+        {/* End Moving Text Section */}
 
         {/* Start Service Section */}
         <Spacing lg="150" md="80" />
@@ -89,7 +213,7 @@ export default function Home() {
               <Div className="col-xl-4">
                 <SectionHeading
                   title="Services we can help you with"
-                  subtitle="What Can We Do"
+                  subtitle=""
                   btnText="See All Services"
                   btnLink="/service"
                 />
@@ -144,51 +268,15 @@ export default function Home() {
         </Div>
         {/* End Service Section */}
 
-        {/* Start Portfolio Section */}
-        <Spacing lg="150" md="50" />
-        <Div>
-          <Div className="container">
-            <SectionHeading
-              title="Portfolio to explore"
-              subtitle="Latest Projects"
-              variant="cs-style1 text-center"
-            />
-            <Spacing lg="90" md="45" />
-          </Div>
-          <PortfolioSlider />
-        </Div>
-        {/* End Portfolio Section */}
 
-        {/* Start Awards Section */}
-        <Spacing lg="150" md="80" />
-        <Div className="cs-shape_wrap_2">
-          <Div className="cs-shape_2">
-            <Div />
-          </Div>
-          <Div className="container">
-            <Div className="row">
-              <Div className="col-xl-4">
-                <SectionHeading
-                  title="We get multiple awards"
-                  subtitle="Our Awards"
-                  variant="cs-style1"
-                />
-                <Spacing lg="90" md="45" />
-              </Div>
-              <Div className="col-xl-7 offset-xl-1">
-                <TimelineSlider />
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-        {/* End Awards Section */}
+      
 
         {/* Start Video Block Section */}
         <Spacing lg="130" md="70" />
         <Div className="container">
           <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-            Our agile process is ability to adapt and respond to change. Agile
-            organizations view change as an opportunity, not a threat.
+          In agile methodology, change is opportunity, not a threat.
+          We embrace it effectively to drive success in your organization.
           </h2>
           <Spacing lg="70" md="70" />
           <VideoModal
@@ -198,19 +286,6 @@ export default function Home() {
         </Div>
         {/* End Video Block Section */}
 
-        {/* Start Team Section */}
-        <Spacing lg="145" md="80" />
-        <Div className="container">
-          <SectionHeading
-            title="Awesome team <br/>members"
-            subtitle="Our Team"
-            variant="cs-style1"
-          />
-          <Spacing lg="85" md="45" />
-          <TeamSlider />
-        </Div>
-        <Spacing lg="150" md="80" />
-        {/* End Team Section */}
 
         {/* Start Testimonial Section */}
         <TestimonialSlider />
@@ -244,7 +319,7 @@ export default function Home() {
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
-        <MovingText text="Our reputed world wide partners" />
+        <MovingText text="Our reputed world wide partners." />
         <Spacing lg="105" md="70" />
         {/* End MovingText Section */}
 
