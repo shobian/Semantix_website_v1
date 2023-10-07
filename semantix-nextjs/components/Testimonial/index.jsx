@@ -7,9 +7,12 @@ export default function Testimonial({
   avatarName,
   avatarDesignation,
   ratings,
-}) {
+}) 
+{
+
   return (
-    <Div className="cs-testimonial cs-style1">
+    <Div> <h1> OUR TEAM</h1>
+    <Div className="cs-testimonial cs-style1" >
       <Div className="cs-testimonial_quote">
         <Icon icon="fa:quote-left" />
       </Div>
@@ -29,8 +32,10 @@ export default function Testimonial({
       </Div>
       <h2 className="cs-testimonial_avatar_name">{avatarName}</h2>
       <Div className="cs-testimonial_avatar_designation text-uppercase">
+        dakjsdh
         {avatarDesignation}
       </Div>
+    </Div>
     </Div>
   );
 }
