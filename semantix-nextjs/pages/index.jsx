@@ -166,7 +166,7 @@ export default function Home() {
       </Head>
       <Layout>
         {/* Start Hero Section */}
-        <Hero4
+        <Hero4 
           title="We semantix <span>labs</span> <br />Your Digital Partner"
           subtitle="We are dedicated to delivering cutting-edge problem-solving solutions to our clients while consistently providing the highest quality products, both now and in the future."
           scrollDownId="#service"
