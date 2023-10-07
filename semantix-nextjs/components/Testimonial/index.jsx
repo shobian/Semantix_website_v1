@@ -11,7 +11,7 @@ export default function Testimonial({
 {
 
   return (
-    <Div> <h1> OUR TEAM</h1>
+    
     <Div className="cs-testimonial cs-style1" >
       <Div className="cs-testimonial_quote">
         <Icon icon="fa:quote-left" />
@@ -36,6 +36,6 @@ export default function Testimonial({
         {avatarDesignation}
       </Div>
     </Div>
-    </Div>
+    
   );
 }
