@@ -167,7 +167,7 @@ export default function Home() {
       <Layout>
         {/* Start Hero Section */}
         <Hero4 
-          title="We Semantix <span>Labs</span> <br />Your Digital Partner"
+          title="We semantix <span>labs</span> <br />Your Digital Partner"
           subtitle="We are dedicated to delivering cutting-edge problem-solving solutions to our clients while consistently providing the highest quality products, both now and in the future."
           scrollDownId="#service"
           socialLinksHeading="Follow Us"
@@ -268,8 +268,6 @@ export default function Home() {
         </Div>
         {/* End Service Section */}
 
-
-      
 
         {/* Start Video Block Section */}
         <Spacing lg="130" md="70" />
