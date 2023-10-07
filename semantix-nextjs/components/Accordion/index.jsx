@@ -12,24 +12,28 @@ export default function Accordion() {
   }
   const accordionData = [
     {
-      question: 'Do you design illustration website?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'What services does your digital agency offer?',
+      answer: 'We provide a comprehensive suite of services, including digital marketing, web development, software development, application development, and branding solutions.'
     },
     {
-      question: 'Do you provide design source file after finish work?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'How can digital marketing benefit my business?',
+      answer: 'Digital marketing enhances your online presence, reaches a wider audience, boosts brand awareness, and drives conversions.'
     },
     {
-      question: 'How to provide project details and payments?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: "What's the process for web development with your agency?",
+      answer: 'We begin with a detailed consultation, followed by design, development, testing, and launch, ensuring a tailored and effective website.'
     },
     {
-      question: 'Can you tell me please how to contact for project?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Do you offer ongoing support and maintenance for websites and apps?',
+      answer: 'Yes, we offer ongoing support and maintenance services to keep your digital assets up-to-date and secure.'
     },
     {
-      question: 'Do you makes custom logo, icon etc?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Can you explain your software development approach briefly?',
+      answer: 'Our software development follows agile methodologies for efficient, iterative development, resulting in flexible and scalable solutions.'
+    },
+    {
+      question: 'How do I get started with your digital agency?',
+      answer: " Simply reach out to us through our contact form, phone, or email, and we'll schedule a consultation to discuss your specific needs and goals."
     },
   ]
   return (
