@@ -4,7 +4,7 @@
   font-size: 120px;
   line-height: 1.2em;
   color: rgb(6, 147, 199);
-  -webkit-text-stroke: 2px $accent;
+  -webkit-text-stroke: 2px (6, 147, 199);
 }
 .cs-moving_text_in {
   display: flex;
@@ -30,7 +30,7 @@
     a {
       &:hover {
         color: transparent;
-        -webkit-text-stroke: 2px $accent;
+        -webkit-text-stroke: 2px  rgb(6, 147, 199);
       }
     }
   }
