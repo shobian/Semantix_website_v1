@@ -13,19 +13,19 @@ export default function About() {
   const funfaceData = [
     {
       title: 'Global Happy Clients',
-      factNumber: '40K',
+      factNumber: '50+',
     },
     {
       title: 'Project Completed',
-      factNumber: '50K',
+      factNumber: '20',
     },
     {
       title: 'Team Members',
-      factNumber: '245',
+      factNumber: '15',
     },
     {
       title: 'Digital products',
-      factNumber: '550',
+      factNumber: '20',
     },
   ];
   return (
@@ -39,8 +39,9 @@ export default function About() {
         {/* Start Page Heading Section */}
         <PageHeading
           title="About Us"
-          bgSrc="images/about_hero_bg.jpeg"
+          bgSrc="images/cam.jpg"
           pageLinkText="About Us"
+          style= {{opacity:30}}
         />
         {/* End Page Heading Section */}
 
@@ -68,15 +69,18 @@ export default function About() {
             </Div>
             <Div className="col-lg-5 offset-xl-2">
               <img
-                src="/images/about_img_1.jpeg"
+                src="/images/partnership.jpg"
                 alt="About"
                 className="w-100 cs-radius_15"
+                style={{
+                  boxShadow: "10px 10px 30px rgba(102, 12, 99, 0.8)", // Purple drop shadow
+                }}
               />
               <Spacing lg="25" md="25" />
             </Div>
             <Div className="col-lg-7">
               <img
-                src="/images/about_img_2.jpeg"
+                src="/images/cam.jpg"
                 alt="About"
                 className="w-100 cs-radius_15"
               />
@@ -84,7 +88,7 @@ export default function About() {
             </Div>
             <Div className="col-lg-5">
               <img
-                src="/images/about_img_3.jpeg"
+                src="/images/park.jpg"
                 alt="About"
                 className="w-100 cs-radius_15"
               />
@@ -113,7 +117,7 @@ export default function About() {
               <Div className="cs-image_layer cs-style1">
                 <Div className="cs-image_layer_in">
                   <img
-                    src="/images/about_img_4.jpeg"
+                    src="/images/code.png"
                     alt="About"
                     className="w-100 cs-radius_15"
                   />
