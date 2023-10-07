@@ -277,10 +277,10 @@ export default function Home() {
           We embrace it effectively to drive success in your organization.
           </h2>
           <Spacing lg="70" md="70" />
-          <VideoModal
+        {/*  <VideoModal
             videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
             bgUrl="/images/video_bg.jpeg"
-          />
+          />*/}
         </Div>
         {/* End Video Block Section */}
 
