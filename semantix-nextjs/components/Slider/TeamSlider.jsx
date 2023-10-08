@@ -21,7 +21,7 @@ export default function TeamSlider() {
     {
       memberImage: '/images/umair.jpg',
       memberName: 'Umair Shukri',
-      memberDesignation: 'C0-Founder / COO',
+      memberDesignation: 'Co-Founder / COO',
       memberSocial: {
         linkedin: '/https://www.linkedin.com/in/umair-s-09baa4137/',
         twitter: '/',
