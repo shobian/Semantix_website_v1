@@ -159,7 +159,7 @@ export default function Header({ variant }) {
         <Div className="cs-side_header_in">
           <Div className="cs-side_header_shape" />
           <Link className="cs-site_branding" href="/">
-            <img src="/images/footer_logo.svg" alt="Logo" />
+            <img src="/images/footer_logo.png" alt="Logo" />
           </Link>
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">
@@ -172,8 +172,8 @@ export default function Header({ variant }) {
           <Div className="cs-side_header_box">
             <Newsletter
               title="Subscribe"
-              subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
-              placeholder="example@gmail.com"
+              subtitle="To join hands in the success journey of semantix."
+              placeholder="info@semantixlabs.com"
             />
           </Div>
           <Div className="cs-side_header_box">
