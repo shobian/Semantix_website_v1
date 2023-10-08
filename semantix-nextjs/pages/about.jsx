@@ -39,7 +39,7 @@ export default function About() {
         {/* Start Page Heading Section */}
         <PageHeading
           title="About Us"
-          bgSrc="images/cam.jpg"
+          bgSrc="images/bg.jpg"
           pageLinkText="About Us"
           style= {{opacity:30}}
         />
@@ -88,7 +88,7 @@ export default function About() {
             </Div>
             <Div className="col-lg-5">
               <img
-                src="/images/park.jpg"
+                src="/images/park.png"
                 alt="About"
                 className="w-100 cs-radius_15"
               />
