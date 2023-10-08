@@ -153,12 +153,12 @@ export default function About() {
 
         {/* Start Fun Fact Section */}
         <Div className="container">
-            <Div className="col-xl-5 offset-xl-1 col-lg-6">
+            <Div className="col-xl-10 offset-xl-1 col-lg-6" >
               <SectionHeading
                 title="Get to know us"
                 subtitle=""
               >
-                <Div className="col-xl- col-lg-6">
+                <Div className="col-xl-10 col-lg-6 " >
                 <Div className="cs-image_layer_in">
                   <img
                     src="/images/semantix_us.png"
