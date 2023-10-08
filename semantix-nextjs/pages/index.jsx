@@ -224,9 +224,9 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="UI/UX design"
+                      title="Web Development"
                       link="/service/service-details"
-                      src="/images/service_1.jpeg"
+                      src="/images/service_1.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -234,9 +234,9 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="React.js Development"
+                      title="Social Media Management"
                       link="/service/service-details"
-                      src="/images/service_2.jpeg"
+                      src="/images/service_4.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -245,7 +245,7 @@ export default function Home() {
                     <Card
                       title="Digital Marketing"
                       link="/service/service-details"
-                      src="/images/service_3.jpeg"
+                      src="/images/service_3.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -253,9 +253,9 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Technology"
+                      title="Application Development"
                       link="/service/service-details"
-                      src="/images/service_4.jpeg"
+                      src="/images/service_2.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -277,10 +277,10 @@ export default function Home() {
           We embrace it effectively to drive success in your organization.
           </h2>
           <Spacing lg="70" md="70" />
-          <VideoModal
+        {/*  <VideoModal
             videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
             bgUrl="/images/video_bg.jpeg"
-          />
+          />*/}
         </Div>
         {/* End Video Block Section */}
 

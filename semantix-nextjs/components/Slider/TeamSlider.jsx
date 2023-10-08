@@ -9,8 +9,8 @@ export default function TeamSlider() {
   const teamData = [
     {
       memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberName: 'Shobian Sathyamurthy',
+      memberDesignation: 'Co-Founder / CEO',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -19,11 +19,11 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_2.jpeg',
-      memberName: 'Olinaz Fushi',
-      memberDesignation: 'Product Designer',
+      memberImage: '/images/umair.jpg',
+      memberName: 'Umair Shukri',
+      memberDesignation: 'Co-Founder / COO',
       memberSocial: {
-        linkedin: '/',
+        linkedin: '/https://www.linkedin.com/in/umair-s-09baa4137/',
         twitter: '/',
         youtube: '/',
         facebook: '/',
@@ -31,8 +31,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_3.jpeg',
-      memberName: 'David Elone',
-      memberDesignation: 'React Developer',
+      memberName: 'Umair Ashfaq',
+      memberDesignation: 'Chief Marketing Officer',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -42,8 +42,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_4.jpeg',
-      memberName: 'Melina Opole',
-      memberDesignation: 'WP Developer',
+      memberName: 'Jameel Shuhaib',
+      memberDesignation: 'Chief Sales Officer',
       memberSocial: {
         linkedin: '/',
         twitter: '/',

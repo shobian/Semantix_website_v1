@@ -28,7 +28,7 @@ export default function Team({
         )}
         {memberSocial.twitter && (
           <Link href={memberSocial.twitter}>
-            <Icon icon="fa-brands:twitter" />
+            <Icon icon="fa-brands:instagram" />
           </Link>
         )}
         {memberSocial.youtube && (
