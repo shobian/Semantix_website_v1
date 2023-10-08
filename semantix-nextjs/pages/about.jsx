@@ -103,7 +103,7 @@ export default function About() {
         <Div className="container">
           <FunFact
             title="Our fun fact"
-            subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+            subtitle="Here at Semantix Labs, our team may be youthful, but our talent is seasoned with the passion and creativity of a new generation. Think of us as the 'young guns' of the software world, infusing every project with fresh ideas and boundless energy. Our youthfulness is our secret sauce, blending with years of expertise to deliver software solutions that are not just cutting-edge but also a whole lot of fun to work with. Join us, and let's write the next exciting chapter in the world of tech innovation together!"
             data={funfaceData}
           />
         </Div>
@@ -127,23 +127,16 @@ export default function About() {
             </Div>
             <Div className="col-xl-5 offset-xl-1 col-lg-6">
               <SectionHeading
-                title="Highly experienced pepole with us"
+                title="Highly creative people with us"
                 subtitle="Why Choose Us"
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
                   This is the main factor that sets us apart from our
-                  competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining. Through our years of experience,
-                  we’ve also learned that while each channel.
-                </p>
+                  competition and distinguishes Semantix Labs as a trailblazer in the industry. This commitment to creativity is the main factor that sets us apart from our competition, ensuring that when you partner with us, you're choosing a team that not only delivers exceptional software but also brings a touch of ingenuity to every project, making your digital vision a reality in the most innovative and imaginative way possible                </p>
                 <Spacing lg="15" md="15" />
                 <p className="cs-m0">
-                  This is the main factor that sets us apart from our
-                  competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining.
+                We don't just write code; we craft digital experiences with an artistic touch, ensuring your software not only works flawlessly but also impresses with its creative design and functionality
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>
@@ -158,7 +151,7 @@ export default function About() {
         <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
-            title="Awesome team <br/>members"
+            title="The masterminds steering  <br/> the ship"
             subtitle="Our Team"
             variant="cs-style1"
           />

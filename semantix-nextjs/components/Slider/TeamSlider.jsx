@@ -31,8 +31,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_3.jpeg',
-      memberName: 'David Elone',
-      memberDesignation: 'React Developer',
+      memberName: 'Umair Ashfaq',
+      memberDesignation: 'Chief Marketing Officer',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -42,8 +42,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_4.jpeg',
-      memberName: 'Melina Opole',
-      memberDesignation: 'WP Developer',
+      memberName: 'Jameel Shuhaib',
+      memberDesignation: 'Chief Sales Officer',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
