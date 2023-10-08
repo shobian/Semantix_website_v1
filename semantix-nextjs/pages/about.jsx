@@ -13,7 +13,7 @@ export default function About() {
   const funfaceData = [
     {
       title: 'Global Happy Clients',
-      factNumber: '50+',
+      factNumber: '50',
     },
     {
       title: 'Project Completed',
@@ -103,7 +103,10 @@ export default function About() {
         <Div className="container">
           <FunFact
             title="Our fun fact"
-            subtitle="Here at Semantix Labs, our team may be youthful, but our talent is seasoned with the passion and creativity of a new generation. Think of us as the 'young guns' of the software world, infusing every project with fresh ideas and boundless energy. Our youthfulness is our secret sauce, blending with years of expertise to deliver software solutions that are not just cutting-edge but also a whole lot of fun to work with. Join us, and let's write the next exciting chapter in the world of tech innovation together!"
+            subtitle="Here at Semantix Labs, our team may be youthful, but our talent is seasoned with the passion and creativity of a new generation. 
+            Think of us as the 'young guns' of the software world, infusing every project with fresh ideas and boundless energy. Our youthfulness is our 
+            secret sauce, blending with years of expertise to deliver software solutions that are not just cutting-edge but also a whole lot of fun to work with. 
+            Join us, and let's write the next exciting chapter in the world of tech innovation together!"
             data={funfaceData}
           />
         </Div>
@@ -146,19 +149,62 @@ export default function About() {
           </Div>
         </Div>
         {/* End Why Choose Section */}
+        <Spacing lg="150" md="80" />
 
-        {/* Start Team Section */}
-        <Spacing lg="145" md="80" />
+        {/* Start Fun Fact Section */}
         <Div className="container">
-          <SectionHeading
-            title="The masterminds steering  <br/> the ship"
-            subtitle="Our Team"
-            variant="cs-style1"
-          />
-          <Spacing lg="85" md="45" />
-          <TeamSlider />
+            <Div className="col-xl-5 offset-xl-1 col-lg-6">
+              <SectionHeading
+                title="Get to know us"
+                subtitle=""
+              >
+                <Div className="col-xl- col-lg-6">
+                <Div className="cs-image_layer_in">
+                  <img
+                    src="/images/semantix_us.png"
+                    alt="About"
+                    className="w-100 cs-radius_15"
+                  />
+                </Div>
+              <Spacing lg="0" md="40" />
+            </Div>
+
+                <Spacing lg="30" md="20" />
+                <p className="cs-m0">
+                At Semantix Labs, we embody a dynamic and innovative spirit. Our young and agile team is passionate about pushing boundaries and delivering cutting-edge solutions. We prioritize our clients' success, embracing change as an opportunity, not a challenge. With a client-centric and collaborative approach, we are results-oriented and dedicated to providing high-quality solutions. Our work is driven by a commitment to innovation, creativity, and a forward-thinking mindset.<Spacing lg="15" md="15" />
+                </p>
+                <br/>
+                <p className="cs-m0">
+                <b>Innovative:</b> At Semantix Labs, innovation is at the core of everything we do. We're dedicated to pushing boundaries and exploring new possibilities.
+                <br/><br/>
+                <b>Agile:</b> We embrace change and adapt quickly to meet the evolving needs of our clients and the dynamic digital landscape.
+                <br/><br/>
+                <b>Dynamic:</b> Our young and vibrant culture fosters creativity, collaboration, and a forward-thinking mindset.
+                <br/><br/>
+                <b>Cutting-edge:</b> We stay at the forefront of technology trends to deliver state-of-the-art solutions to our clients.
+                <br/><br/>
+                <b>Solution-driven:</b> Our primary focus is to provide practical and effective solutions that solve our clients' unique challenges.
+                <br/><br/>
+                <b>Client-centric:</b> We prioritize our clients' success and work closely with them to achieve their goals.
+                <br/><br/>
+                <b>Quality:</b> We take pride in delivering high-quality services and products that exceed expectations.
+                <br/><br/>
+                <b>Results-oriented:</b> Our work is driven by a commitment to delivering measurable results and ROI for our clients.
+                <br/><br/>
+                <b>Passionate:</b> We are passionate about what we do and are driven by a genuine enthusiasm for technology and creativity.
+                <br/><br/>
+                <b>Collaborative:</b> Collaboration is key to our success. We work as a team, leveraging each other's strengths to deliver outstanding outcomes.
+                </p>
+                <Spacing lg="30" md="30" />
+                <Div className="cs-separator cs-accent_bg"></Div>
+                <Spacing lg="25" md="0" />
+              </SectionHeading>
+            </Div>
+  
+          
         </Div>
-        {/* End Team Section */}
+        {/* End Fun Fact Section */}
+      
 
         {/* Start CTA Section */}
         <Spacing lg="150" md="80" />

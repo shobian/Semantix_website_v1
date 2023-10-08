@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/team": "pages/team.js",
-  "/service/[serviceId]": "pages/service/[serviceId].js",
-  "/service": "pages/service.js"
+  "/about": "pages/about.js",
+  "/service/[serviceId]": "pages/service/[serviceId].js"
 }

@@ -285,9 +285,7 @@ export default function Home() {
         {/* End Video Block Section */}
 
 
-        {/* Start Testimonial Section */}
-        <TestimonialSlider />
-        {/* End Testimonial Section */}
+        
 
         {/* Start Blog Section */}
         <Spacing lg="150" md="80" />

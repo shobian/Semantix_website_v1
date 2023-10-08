@@ -13,34 +13,15 @@ export default function Blog() {
   const postData = [
     {
       thumb: '/images/post_4.jpeg',
-      title: 'A.I will take all human job within next year',
+      title: 'Why Small-Scale Businesses Need Websites',
       subtitle:
-        'Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Tortor posuere ac ut consequat semper viverra nam libero justo. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis. Pretium viverra suspendisse potenti nullam ac tortor vitae.',
-      date: '07 Mar 2022',
+        "In today's fast-paced digital age, having a strong online presence is crucial for businesses of all sizes. For small-scale businesses, a well-designed website can be a game-changer. In this blog post, we'll delve into the reasons why small businesses need websites and how they can leverage them to boost sales, attract, retain customers, and increase repeat purchases.",
+      date: '8th September 2023',
       category: 'Tech',
       categoryHref: '/blog',
       href: '/blog/blog-details',
     },
-    {
-      thumb: '/images/post_5.jpeg',
-      title: 'Creative studio programm coming soon',
-      subtitle:
-        'Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Tortor posuere ac ut consequat semper viverra nam libero justo. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis. Pretium viverra suspendisse potenti nullam ac tortor vitae.',
-      date: '05 Mar 2022',
-      category: 'Photography',
-      categoryHref: '/blog',
-      href: '/blog/blog-details',
-    },
-    {
-      thumb: '/images/post_6.jpeg',
-      title: 'Artistic mind will be great for creation',
-      subtitle:
-        'Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Tortor posuere ac ut consequat semper viverra nam libero justo. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis. Pretium viverra suspendisse potenti nullam ac tortor vitae.',
-      date: '04 Mar 2022',
-      category: 'Tech',
-      categoryHref: '/blog',
-      href: '/blog/blog-details',
-    },
+    
   ];
   return (
     <>
@@ -58,7 +39,7 @@ export default function Blog() {
         <Spacing lg="150" md="80" />
         <Div className="container">
           <Div className="row">
-            <Div className="col-lg-8">
+            <Div className="col-lg-12">
               {postData.map((item, index) => (
                 <Div key={index}>
                   <PostStyle2
@@ -76,10 +57,7 @@ export default function Blog() {
               <Spacing lg="60" md="40" />
               <Pagination />
             </Div>
-            <Div className="col-xl-3 col-lg-4 offset-xl-1">
-              <Spacing lg="0" md="80" />
-              <Sidebar />
-            </Div>
+            
           </Div>
         </Div>
         <Spacing lg="150" md="80" />
