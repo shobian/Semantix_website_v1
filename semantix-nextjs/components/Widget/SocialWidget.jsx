@@ -8,11 +8,11 @@ export default function SocialWidget() {
       <Link href="/" className="cs-center">
         <Icon icon="fa6-brands:linkedin-in" />
       </Link>
-      <Link href="/" className="cs-center">
-        <Icon icon="fa6-brands:twitter" />
+      <Link href="https://www.instagram.com/semantixlabs/" className="cs-center">
+        <Icon icon="fa6-brands:instagram" />
       </Link>
       <Link href="/" className="cs-center">
-        <Icon icon="fa6-brands:youtube" />
+        <Icon icon="fa6-brands:facebook" />
       </Link>
       <Link href="/" className="cs-center">
         <Icon icon="fa6-brands:slack" />
