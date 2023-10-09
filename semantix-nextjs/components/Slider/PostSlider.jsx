@@ -9,23 +9,44 @@ export default function PostSlider() {
       url:'/blog/blog-details', 
       src:'/images/post_1.jpeg', 
       alt:'Post', 
-      date:'08 September 2023', 
-      title:'Why Small-Scale Businesses Need Websites'
+      date:'07 Mar 2022', 
+      title:'How to keep fear from ruining your art business with confident'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/post_2.jpeg', 
       alt:'Post', 
-      date:'08 October 2023', 
-      title:'Leveraging Tech Trends: A Blueprint for Business Growth'
-    },{
+      date:'10 Feb 2022',
+      title:'Artistic mind will be great for creation anything'
+    },
+    {
       url:'/blog/blog-details', 
       src:'/images/post_3.jpeg', 
       alt:'Post', 
-      date:'10 October 2023', 
-      title:'Building Your Brand Online: Strategies for Digital Success'
+      date:'05 Mar 2022',
+      title:'A.I will take over all job for human within next year'
     },
-    
+    {
+      url:'/blog/blog-details', 
+      src:'/images/post_1.jpeg', 
+      alt:'Post', 
+      date:'07 Mar 2022', 
+      title:'How to keep fear from ruining your art business with confident'
+    },
+    {
+      url:'/blog/blog-details', 
+      src:'/images/post_2.jpeg', 
+      alt:'Post', 
+      date:'10 Feb 2022',
+      title:'Artistic mind will be great for creation anything'
+    },
+    {
+      url:'/blog/blog-details', 
+      src:'/images/post_3.jpeg', 
+      alt:'Post', 
+      date:'05 Mar 2022',
+      title:'A.I will take over all job for human within next year'
+    }
   ]
   
   /** Slider Settings **/
