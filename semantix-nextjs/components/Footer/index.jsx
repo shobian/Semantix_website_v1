@@ -66,8 +66,8 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
               <Div className="cs-footer_item">
                 <Newsletter
                   title="Subscribe"
-                  subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
-                  placeholder="example@gmail.com"
+                  subtitle="Join Hands in the success journey of semantix labs and stay updated."
+                  placeholder="info@semantixlabs.com"
                 />
               </Div>
             </Div>
