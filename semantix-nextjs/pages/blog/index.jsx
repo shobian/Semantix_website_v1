@@ -55,7 +55,7 @@ export default function Blog() {
                 </Div>
               ))}
               <Spacing lg="60" md="40" />
-              <Pagination />
+          
             </Div>
             
           </Div>
