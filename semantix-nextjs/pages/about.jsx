@@ -39,7 +39,7 @@ export default function About() {
         {/* Start Page Heading Section */}
         <PageHeading
           title="About Us"
-          bgSrc="images/bg.jpg"
+          bgSrc="images/about_hero_bg.jpeg"
           pageLinkText="About Us"
           style= {{opacity:30}}
         />
@@ -69,18 +69,15 @@ export default function About() {
             </Div>
             <Div className="col-lg-5 offset-xl-2">
               <img
-                src="/images/partnership.jpg"
+                src="/images/about_img_3.jpeg"
                 alt="About"
                 className="w-100 cs-radius_15"
-                style={{
-                  boxShadow: "10px 10px 30px rgba(102, 12, 99, 0.8)", // Purple drop shadow
-                }}
               />
               <Spacing lg="25" md="25" />
             </Div>
             <Div className="col-lg-7">
               <img
-                src="/images/cam.jpg"
+                src="/images/about_img_2.jpeg"
                 alt="About"
                 className="w-100 cs-radius_15"
               />
@@ -88,7 +85,7 @@ export default function About() {
             </Div>
             <Div className="col-lg-5">
               <img
-                src="/images/park.png"
+                src="/images/about_img_1.jpeg"
                 alt="About"
                 className="w-100 cs-radius_15"
               />
