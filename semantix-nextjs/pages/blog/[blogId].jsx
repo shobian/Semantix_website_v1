@@ -38,7 +38,7 @@ export default function BlogDetails() {
               <Div className="cs-post cs-style2">
                 <Div className="cs-post_thumb cs-radius_15">
                   <img
-                    src="/images/post_5.jpeg"
+                    src="/images/post_4.jpeg"
                     alt="Post"
                     className="w-100 cs-radius_15"
                   />
@@ -58,25 +58,7 @@ export default function BlogDetails() {
                   For small-scale businesses, a well-designed website can be a game-changer. In this blog post, we'll delve into the reasons 
                   why small businesses need websites and how they can leverage them to boost sales, attract, retain customers, and increase repeat purchases.
                   </p>
-                  
-                  <Div className="row">
-                    <Div className="col-md-6">
-                      <img
-                        src="/images/blog_details_img_1.jpeg"
-                        alt="Blog Details"
-                        className="cs-radius_15 w-100"
-                      />
-                      <Div className="cs-height_45 cs-height_lg_45" />
-                    </Div>
-                    <Div className="col-md-6">
-                      <img
-                        src="/images/blog_details_img_2.jpeg"
-                        alt="Blog Details"
-                        className="cs-radius_15 w-100"
-                      />
-                      <Div className="cs-height_45 cs-height_lg_45" />
-                    </Div>
-                  </Div>
+                
                   <p>
                     <h3>1. Why Your Small Business Needs a Website:</h3>
                     24/7 Accessibility: A website provides round-the-clock accessibility to your products or services, allowing potential customers to browse and shop at their convenience.

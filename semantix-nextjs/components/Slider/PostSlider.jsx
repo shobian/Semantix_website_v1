@@ -9,22 +9,22 @@ export default function PostSlider() {
       url:'/blog/blog-details', 
       src:'/images/post_1.jpg', 
       alt:'Post', 
-      date:'07 Mar 2022', 
-      title:'How to keep fear from ruining your art business with confident'
+      date:'08 September 2023', 
+      title:'Why Small-Scale Businesses Need Websites'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/post_2.jpeg', 
       alt:'Post', 
-      date:'10 Feb 2022',
-      title:'Artistic mind will be great for creation anything'
+      date:'08 October 2023',
+      title:'Leveraging Tech Trends: A Blueprint for Business Growth'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/post_3.jpeg', 
       alt:'Post', 
-      date:'05 Mar 2022',
-      title:'A.I will take over all job for human within next year'
+      date:'10 October 2023',
+      title:'Building Your Brand Online: Strategies for Digital Success'
     },
   ]
   

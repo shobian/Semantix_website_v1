@@ -16,7 +16,7 @@ export default function Blog() {
       title: 'Why Small-Scale Businesses Need Websites',
       subtitle:
         "In today's fast-paced digital age, having a strong online presence is crucial for businesses of all sizes. For small-scale businesses, a well-designed website can be a game-changer. In this blog post, we'll delve into the reasons why small businesses need websites and how they can leverage them to boost sales, attract, retain customers, and increase repeat purchases.",
-      date: '8th September 2023',
+      date: '08 September 2023',
       category: 'Tech',
       categoryHref: '/blog',
       href: '/blog/blog-details',
