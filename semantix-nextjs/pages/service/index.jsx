@@ -106,8 +106,7 @@ export default function Service() {
         </Div>
         <Spacing lg="150" md="80" />
         
-        <Spacing lg="125" md="55" />
-        <TestimonialSlider />
+        
         <Spacing lg="150" md="80" />
         <Div className="container">
           <Cta
