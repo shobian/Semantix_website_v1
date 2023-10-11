@@ -155,42 +155,42 @@ export default function About() {
                 title="Get to know us"
                 subtitle=""
               >
-                <Div className="col-xl-10 col-lg-6 " >
-                <Div className="cs-image_layer_in">
+                <Div className=" " style={{justifyContent:"center", alignContent:'center'}} >
+                <Div className="cs-image_layer_in" style={{display:'flex', justifyContent:"center", alignContent:'center'}} >
                   <img
                     src="/images/semantix_us.png"
                     alt="About"
-                    className="w-100 cs-radius_15"
+                    className=" cs-radius_15"   style={{ width: '50%', height: 'auto', justifyContent:"center" , alignContent:'center'}}
                   />
                 </Div>
               <Spacing lg="0" md="40" />
             </Div>
 
                 <Spacing lg="30" md="20" />
-                <p className="cs-m0">
+                <p className="cs-m0" style={{textAlign:'center'}}>
                 At Semantix Labs, we embody a dynamic and innovative spirit. Our young and agile team is passionate about pushing boundaries and delivering cutting-edge solutions. We prioritize our clients' success, embracing change as an opportunity, not a challenge. With a client-centric and collaborative approach, we are results-oriented and dedicated to providing high-quality solutions. Our work is driven by a commitment to innovation, creativity, and a forward-thinking mindset.<Spacing lg="15" md="15" />
                 </p>
                 <br/>
-                <p className="cs-m0">
-                <b>Innovative:</b> At Semantix Labs, innovation is at the core of everything we do. We're dedicated to pushing boundaries and exploring new possibilities.
+                <p className="cs-m0" >
+                <b className='' style={{color:"purple"}}>Innovative:</b> At Semantix Labs, innovation is at the core of everything we do. We're dedicated to pushing boundaries and exploring new possibilities.
                 <br/><br/>
-                <b>Agile:</b> We embrace change and adapt quickly to meet the evolving needs of our clients and the dynamic digital landscape.
+                <b style={{color:"purple"}}>Agile:</b> We embrace change and adapt quickly to meet the evolving needs of our clients and the dynamic digital landscape.
                 <br/><br/>
-                <b>Dynamic:</b> Our young and vibrant culture fosters creativity, collaboration, and a forward-thinking mindset.
+                <b style={{color:"purple"}}>Dynamic:</b> Our young and vibrant culture fosters creativity, collaboration, and a forward-thinking mindset.
                 <br/><br/>
-                <b>Cutting-edge:</b> We stay at the forefront of technology trends to deliver state-of-the-art solutions to our clients.
+                <b style={{color:"purple"}}>Cutting-edge:</b> We stay at the forefront of technology trends to deliver state-of-the-art solutions to our clients.
                 <br/><br/>
-                <b>Solution-driven:</b> Our primary focus is to provide practical and effective solutions that solve our clients' unique challenges.
+                <b style={{color:"purple"}}>Solution-driven:</b> Our primary focus is to provide practical and effective solutions that solve our clients' unique challenges.
                 <br/><br/>
-                <b>Client-centric:</b> We prioritize our clients' success and work closely with them to achieve their goals.
+                <b style={{color:"purple"}}>Client-centric:</b> We prioritize our clients' success and work closely with them to achieve their goals.
                 <br/><br/>
-                <b>Quality:</b> We take pride in delivering high-quality services and products that exceed expectations.
+                <b style={{color:"purple"}}>Quality:</b> We take pride in delivering high-quality services and products that exceed expectations.
                 <br/><br/>
-                <b>Results-oriented:</b> Our work is driven by a commitment to delivering measurable results and ROI for our clients.
+                <b style={{color:"purple"}}>Results-oriented:</b> Our work is driven by a commitment to delivering measurable results and ROI for our clients.
                 <br/><br/>
-                <b>Passionate:</b> We are passionate about what we do and are driven by a genuine enthusiasm for technology and creativity.
+                <b style={{color:"purple"}}>Passionate:</b> We are passionate about what we do and are driven by a genuine enthusiasm for technology and creativity.
                 <br/><br/>
-                <b>Collaborative:</b> Collaboration is key to our success. We work as a team, leveraging each other's strengths to deliver outstanding outcomes.
+                <b style={{color:"purple"}}>Collaborative:</b> Collaboration is key to our success. We work as a team, leveraging each other's strengths to deliver outstanding outcomes.
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>
