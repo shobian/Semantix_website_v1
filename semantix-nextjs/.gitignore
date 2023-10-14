@@ -1,3 +1,7 @@
 # Ignore node_modules and .next folders
 node_modules/
 .next/
+.firebase
+firebase.js
+firebase.json
+.firebaserc

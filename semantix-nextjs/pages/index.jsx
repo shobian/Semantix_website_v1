@@ -37,7 +37,7 @@ export default function Home() {
   const heroSocialLinks = [
     {
       name: 'Instagram',
-      links: '/',
+      links: 'https://www.instagram.com/semantixlabs',
     },
     {
       name: 'Facebook',
@@ -65,29 +65,29 @@ export default function Home() {
   const serviceData1 = [
     {
       title: 'Web Development',
-      href: '/service/service-details',
+      href: '/service',
     },
     {
       title: 'Marketing',
-      href: '/service/service-details',
+      href: '/service',
     },
     {
       title: 'Branding',
-      href: '/service/service-details',
+      href: '/service',
     },
   ];
   const serviceData2 = [
     {
       title: 'SEO',
-      href: '/service/service-details',
+      href: '/service',
     },
     {
       title: 'App design',
-      href: '/service/service-details',
+      href: '/service',
     },
     {
       title: 'Software Development',
-      href: '/service/service-details',
+      href: '/service',
     },
   ];
   const portfolioData = [
