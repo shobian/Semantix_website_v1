@@ -225,7 +225,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Web Development"
-                      link="/service/service-details"
+                      link=""
                       src="/images/service_1.jpg"
                       alt="Service"
                     />
@@ -235,7 +235,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Social Media Management"
-                      link="/service/service-details"
+                      link=""
                       src="/images/service_4.jpg"
                       alt="Service"
                     />
@@ -244,7 +244,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Digital Marketing"
-                      link="/service/service-details"
+                      link="/"
                       src="/images/service_3.jpg"
                       alt="Service"
                     />
@@ -254,7 +254,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Application Development"
-                      link="/service/service-details"
+                      link="/service/"
                       src="/images/service_2.jpg"
                       alt="Service"
                     />

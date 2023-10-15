@@ -9,7 +9,10 @@ import PricingTableList from '../../components/PricingTable/PricingTableList';
 import SectionHeading from '../../components/SectionHeading';
 import TestimonialSlider from '../../components/Slider/TestimonialSlider';
 import Spacing from '../../components/Spacing';
+import Serv from '../../components/Widget/Service'
 
+import one from '../../public/images/tech/one.png'
+import two from '../../public/images/tech/2.png'
 export default function Service() {
   return (
     <>
@@ -76,6 +79,8 @@ export default function Service() {
                       src="/images/service_5.jpg"
                       alt="Service"
                     />
+                  
+
                     <Spacing lg="0" md="30" />
                   </Div>
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
@@ -89,6 +94,7 @@ export default function Service() {
                     />
                     <Spacing lg="0" md="30" />
                   </Div>
+                  
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
@@ -105,8 +111,31 @@ export default function Service() {
           </Div>
         </Div>
         <Spacing lg="150" md="80" />
+        <Div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}> 
+        <SectionHeading 
+                  title=""
+                  subtitle="Our Tech Expertise"
+                 
+                />
+        </Div>
         
+
+        <Div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' ,}}>
+       
+  <Div className='' style={{ width: '7%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
+          <img src="/images/tech/2.png"/>  
+          <img src="/images/tech/one.png"/>
+          <img src="/images/tech/3.png"/>
+          <img src="/images/tech/4.png"/>
+          <img src="/images/tech/6.png"/>
+          <img src="/images/tech/7.png"/>
+          <img src="/images/tech/8.png"/>
+          <img src="/images/tech/9.png"/>
+          <img src="/images/tech/10.png"/>
+          
+          </Div>      </Div>
         
+              
         <Spacing lg="150" md="80" />
         <Div className="container">
           <Cta
@@ -116,7 +145,10 @@ export default function Service() {
             bgSrc="/images/cta_bg.jpeg"
           />
         </Div>
+       
+    
       </Layout>
+ 
     </>
   );
 }
