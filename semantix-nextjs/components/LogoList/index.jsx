@@ -19,7 +19,15 @@ export default function LogoList() {
       src: '/images/4.png',
       alt: 'Partner',
     },
-    
+    {
+      src: '/images/5.png',
+      alt: 'Partner',
+    },
+    ,
+    {
+      src: '/images/6.png',
+      alt: 'Partner',
+    },
   ];
   return (
     <Div className="cs-partner_logo_wrap">
