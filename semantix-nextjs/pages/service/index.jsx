@@ -120,20 +120,20 @@ export default function Service() {
         </Div>
         
 
-        <Div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' ,}}>
-       
-  <Div className='' style={{ width: '7%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
-          <img src="/images/tech/2.png"/>  
-          <img src="/images/tech/one.png"/>
-          <img src="/images/tech/3.png"/>
-          <img src="/images/tech/4.png"/>
-          <img src="/images/tech/6.png"/>
-          <img src="/images/tech/7.png"/>
-          <img src="/images/tech/8.png"/>
-          <img src="/images/tech/9.png"/>
-          <img src="/images/tech/10.png"/>
-          
-          </Div>      </Div>
+      <Div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' ,}}>
+        <Div className='' style={{ width: '7%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
+            <img src="/images/tech/2.png"/>  
+            <img src="/images/tech/1.png"/>
+            <img src="/images/tech/3.png"/>
+            <img src="/images/tech/4.png"/>
+            <img src="/images/tech/6.png"/>
+            <img src="/images/tech/7.png"/>
+            <img src="/images/tech/8.png"/>
+            <img src="/images/tech/9.png"/>
+            <img src="/images/tech/10.png"/>
+            
+        </Div>      
+      </Div>
         
               
         <Spacing lg="150" md="80" />
