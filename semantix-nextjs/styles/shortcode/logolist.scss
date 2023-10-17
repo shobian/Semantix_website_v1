@@ -1,13 +1,22 @@
 .cs-partner_logo_wrap {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 -15px;
 }
+
 .cs-partner_logo {
   padding: 15px;
+  width: 33.33%; 
+  box-sizing: border-box; 
 }
+
 @media screen and (max-width: 575px) {
   .cs-partner_logo_wrap {
     margin: 0 -10px;
+  }
+
+  .cs-partner_logo {
+    width: 50%; 
   }
 }
