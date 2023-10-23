@@ -7,8 +7,49 @@ import PageHeading from '../components/PageHeading';
 import SectionHeading from '../components/SectionHeading';
 import Spacing from '../components/Spacing';
 import ContactInfoWidget from '../components/Widget/ContactInfoWidget';
+import { useState } from 'react';
 
 export default function Contact() {
+  const [isSubmitting, setIsSubmitting] = useState(false); // State for submission
+  const [formFields, setFormFields] = useState({
+    name: '',
+    email: '',
+    project_type: '',
+    mobile: '',
+    message: '',
+  }); // State for form fields
+
+  async function handleSubmit(event) {
+    setIsSubmitting(true); // Set the submitting state
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "713e4a03-5161-490d-8356-ae30615913f3");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+    });
+    const result = await response.json();
+    if (result.success) {
+      console.log(result);
+      setIsSubmitting(false);
+      setFormFields({
+        name: '',
+        email: '',
+        project_type: '',
+        mobile: '',
+        message: '',
+      });
+    }
+}
   return (
     <>
       <Head>
@@ -35,41 +76,58 @@ export default function Contact() {
               <Spacing lg="0" md="50" />
             </Div>
             <Div className="col-lg-6">
-              <form action="#" className="row">
+              <form className="row" onSubmit={handleSubmit}>
                 <Div className="col-sm-6">
                   <label className="cs-primary_color">Full Name*</label>
-                  <input type="text" className="cs-form_field" />
+                  <input type="text" name="name" className="cs-form_field" value={formFields.name}
+                  onChange={(e) => setFormFields({ ...formFields, name: e.target.value })}
+                  required
+                  />
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-6">
                   <label className="cs-primary_color">Email*</label>
-                  <input type="text" className="cs-form_field" />
+                  <input type="text" name="email" className="cs-form_field" value={formFields.email}
+                  onChange={(e) => setFormFields({ ...formFields, email: e.target.value })}
+                  required
+                  />
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-6">
                   <label className="cs-primary_color">Project Type*</label>
-                  <input type="text" className="cs-form_field" />
+                  <input type="text" name="project_type" className="cs-form_field" value={formFields.project_type}
+                  onChange={(e) => setFormFields({ ...formFields, project_type: e.target.value })}
+                  required
+                  />
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-6">
                   <label className="cs-primary_color">Mobile*</label>
-                  <input type="text" className="cs-form_field" />
+                  <input type="text" name="mobile" className="cs-form_field" value={formFields.mobile}
+                  onChange={(e) => setFormFields({ ...formFields, mobile: e.target.value })}
+                  required
+                  />
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-12">
-                  <label className="cs-primary_color">Mobile*</label>
+                  <label className="cs-primary_color">Message*</label>
                   <textarea
                     cols="30"
                     rows="7"
                     className="cs-form_field"
+                    name="message"
+                    value={formFields.message}
+                    onChange={(e) => setFormFields({ ...formFields, message: e.target.value })}
+                    required
                   ></textarea>
                   <Spacing lg="25" md="25" />
                 </Div>
                 <Div className="col-sm-12">
-                  <button className="cs-btn cs-style1">
-                    <span>Send Message</span>
-                    <Icon icon="bi:arrow-right" />
-                  </button>
+                <button type="submit" className="cs-btn cs-style1" disabled={isSubmitting}>
+                  {isSubmitting ? 'Sending' : 'Send Message'}
+                  <Icon icon="bi:arrow-right" />
+                </button>
+
                 </Div>
               </form>
             </Div>
